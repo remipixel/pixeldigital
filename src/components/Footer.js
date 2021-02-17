@@ -26,8 +26,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
+            Fait avec <icon>❤</icon> à l'Île d'Oléron
           </span>
         </div>
       </div>

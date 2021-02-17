@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>A propos</h1>
             </Fade>
             <p>
               {data.aboutParaOne}
@@ -22,7 +22,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img id="pp" src={data.aboutImage} alt=""></img>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
+import profilePic from "./images/me.jpg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -17,21 +18,21 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Rémy",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Développement web,",
     //Line 2 For Header
-    "products, brands,",
+    "identité visuelle,",
     //Line 3 For Header
-    "and experience",
+    "UI/UX design",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Jeune développeur web, basé sur l'Île d'Oléron. Je crée des sites internet, des applications web, des supports de communication web et papier !",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "contact@pixeldigital.fr",
 
   // End Header Details -----------------------
 
@@ -39,14 +40,14 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Boyard-Voile", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Pour se démarquer et développer son activité après le crise du COVID-19, Boyard-Voile à fait appel à mes services pour la création de son site internet, du community management et différents supports de communication.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://boyard-voile.com/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -120,13 +121,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Je m'appelle Rémy Auroy. Je suis développeur web free-lance depuis 2019 sur l'Île d'Oléron et dans les alentours de la Saintonge, en Charente-Maritime.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "J'ai toujours aimé les technologies, le web, la communication. C'est pour celà que depuis environ l'âge de 14 ans je me forme puis mets en pratique mes connaissances en communication, et en développement de sites web et d'applications mobiles.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Amateur d'expériences visuelles inédites, je crée l'ensemble de mes projets avec en premier lieu une approche d'expérience utilisateur renforcée. En effet, la première chose que vous souhaitez dans votre site, c'est qu'il soit le plus beau, et qu'on puisse facilement l'utiliser ! Pour cela je n'hésite pas à utiliser les technologies les plus récentes et les plus puissantes dans la création de mes sites !",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    profilePic,
 
   //   End About Section ---------------------
 

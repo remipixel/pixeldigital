@@ -6,6 +6,10 @@
   justify-content: space-between;
   .name {
     font-weight: 600;
+    #logosite {
+      max-width: 200px;
+      height: auto;
+    }
   }
   .links-wrapper {
     button {
