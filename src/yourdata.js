@@ -9,9 +9,14 @@ import profilePic from "./images/me.jpg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import facebookIcon from "./images/facebook.svg"
+
+//Photos clients
+import boyardvoile from "./images/boyardvoile.jpg"
+import lechoppe from "./images/lechoppe.jpg"
+import boutique45 from "./images/boutique45.jpg"
+import golfvaldecher from "./images/golfvaldecher.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -45,51 +50,54 @@ export default {
         "Pour se démarquer et développer son activité après le crise du COVID-19, Boyard-Voile à fait appel à mes services pour la création de son site internet, du community management et différents supports de communication.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        boyardvoile,
       //Project URL - Add Your Project Url Here
       url: "http://boyard-voile.com/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "L'Echoppe - Restaurant Bar Concerts", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Suite à un changement de direction dans sa stratégie de communication, L'Echoppe à Boyardville à fait appel à mon savoir faire pour la création de son site ainsi que ses nouveaux supports de communciation.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        lechoppe,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://lechoppe-oleron.fr/",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Boutique 45", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Site web de la Boutique 45 à Saint-Pierre-d'Oléron.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        boutique45,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://boutique45.fr/",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Golf Club du Val de Cher", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Site internet du Club de Golf du Val de Cher à Nassigny.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        golfvaldecher,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://golfclub-valdecher.fr/",
     },
+
+ /*{
+    
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "La Grange", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Site internet du restaurant \"La Grange\" sur le port de Boyardville.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        lagrange,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
@@ -105,7 +113,10 @@ export default {
       url: "http://chetanverma.com/",
     },
 
-    /*
+
+
+
+   
     If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
     ,{
         id: 5,
@@ -140,37 +151,37 @@ export default {
       id: 1,
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Développement HTML",
     },
     {
       id: 2,
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS3 / LESS / Frameworks CSS",
     },
     {
       id: 3,
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Javascript / Frameworks Node.JS",
     },
     {
       id: 4,
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React et Frameworks React",
     },
     {
       id: 5,
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Design graphique / photo / vidéo",
     },
     {
       id: 6,
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Développement mobile et applications logicielles",
     },
   ],
 
@@ -178,32 +189,25 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  promotionHeading: "Secteurs d'activité",
+  promotionPara: "Je suis là pour vous aiguiller dans vos projets de communciation web et média. Mes secteurs d'opérations sont le développement de votre site internet, la communicaton visuelle et la communication web, le marketing sensoriel et digital. Basé à Dolus-d'Oléron, je bénéficie d'un cadre et d'un emplacement sur-mesure pour vous rendre visite en toute facilité.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Créons ensemble votre réussite",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/remipixel" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: facebookIcon,
+      url: "https://www.facebook.com/pixeldigitalfr17/",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/pixeldigitaloleron/",
     },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

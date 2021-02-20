@@ -12,7 +12,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Pixel Digital | Développement web et digital branding" />
+    <SEO title="L'agence"/>
     <Header></Header>
     <Work></Work>
     <About></About>
