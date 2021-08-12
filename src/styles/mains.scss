@@ -15,30 +15,166 @@
 @import "./footer.scss";
 @import "./404.scss";
 
-* {
-  font-family: "Montserrat";
+:root {
+  --primary: #f6dc1c;
+  --black: #111;
+  --dark-gray: #555;
+  --white: #fff;
+  --warm: #f7f8fb;
+  --main-font: "Leon Sans", -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    "Open Sans", sans-serif;
+  --bold-font: 500;
+  --body: 2rem;
+  --h1: 12rem;
+  --h2: 7.2rem;
+  --h3: 3.6rem;
+  --h4: 2.4rem;
+  --ico-dimension: 8rem;
+  --gap-12: 12rem;
+  --gap-6: 6rem;
+  --gap-4: 4rem;
+  --gap-3: 3rem;
+  --nav-height: 10rem;
+  --loading-scale: 25;
+}
+
+
+  
+@media (min-width: 3000px) {
+  :root {
+    --loading-scale: 80;
+  }
+}
+@media (min-width: 2000px) {
+  :root {
+    --loading-scale: 44;
+  }
+}
+@media (min-width: 1600px) {
+  :root {
+    --loading-scale: 30;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --loading-scale: 20;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --loading-scale: 15;
+  }
+}
+
+@media (min-width: 1540px) {
+  :root {
+    --h1: 14rem;
+  }
+  .wrapper {
+    max-width: 1520px;
+  }
+}
+@media (max-width: 1000px) {
+  :root {
+    --h1: 9rem;
+    --h2: 6.4rem;
+    --h3: 3.2rem;
+    --gap-12: 10rem;
+    --gap-6: 5rem;
+    --gap-4: 3rem;
+    --gap-3: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --h1: 7.2rem;
+    --h2: 5.6rem;
+    --h3: 3rem;
+    --gap-12: 9rem;
+    --gap-6: 4.5rem;
+    --gap-4: 2.8rem;
+    --gap-3: 2rem;
+  }
+  a.button {
+    height: 12rem;
+    width: 12rem;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    --nav-height: 8rem;
+    --body: 1.9rem;
+    --h1: 12vw;
+    --h2: 4.2rem;
+    --h3: 2.5rem;
+    --h4: 2.2rem;
+    --ico-dimension: 7rem;
+    --gap-12: 8rem;
+    --gap-6: 4rem;
+    --gap-4: 2.4rem;
+    --gap-3: 2rem;
+  }
+  h1 {
+    letter-spacing: -1.5px;
+  }
+  h2 {
+    letter-spacing: -0.5px;
+  }
+}
+@media (max-width: 376px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  font-family: "Leon Sans", sans-serif;
+  font-size: 2rem;
 }
 
-.section {
-  width: 100vw;
-  height: auto;
-  overflow: hidden;
+body,
+h1 {
+  font-weight: 400;
 }
 
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+h1 {
+  font-size: var(--h1);
+  letter-spacing: -3.5px;
+  line-height: calc(var(--h1) * 1.07);
+}
+
+  
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: var(--bold-font);
+  transition: 0.2s ease-out;
+  color: var(--black);
+}
+
+a,
+h5 {
+  font-size: 1.8rem;
+}
+
+a:hover {
+  color: var(--primary);
 }
 
 .primary-btn {
@@ -46,11 +182,11 @@ body {
   padding: 10px;
   background-color: black;
   color: white;
-  border: 0px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
   &:hover {
     transform: scale(1.1);
+
   }
 }

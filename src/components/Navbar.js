@@ -1,27 +1,23 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
-import logo from "../images/logo-500.jpg"
+import logo from "../images/logo-y.svg"
 
 const Navbar = () => {
   return (
-    <div className="section">
-      <div className="container">
-        <div className="navbar-wrapper">
-          <div
-            role="button"
-            onClick={() => scrollTo("#home")}
-            className="name"
-            tabIndex={0}
-          > <img id="logosite" src={logo} alt="Pixel Digital Logo." />
+    <>
+      <header>
+        <nav className="navbar">
+          <div className="wrapper">
+            <a href="/" className="logo-link"><img src={logo} alt="Logo de Pixel Digital" className="logo" /></a>
+            <ul class="main-menu">
+              <li><a onClick={() => scrollTo("#work")} href="/" class="link">Works</a></li>
+              <li><a onClick={() => scrollTo("#about")} href="/" class="link">L'agence</a></li>
+              <li><a onClick={() => scrollTo("#contact")} href="/" class="dropdown">Connect</a></li>
+            </ul>
           </div>
-          <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Réalisations</button>
-            <button onClick={() => scrollTo("#about")}>A propos</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
-          </div>
-        </div>
-      </div>
-    </div>
+        </nav>
+      </header>
+    </>
   )
 }
 
