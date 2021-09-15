@@ -4,7 +4,7 @@ import data from "../yourdata"
 const Skills = () => {
   return (
     <div className="section">
-      <div className="container">
+      <div className="wrapper">
         <div className="skills-container">
           <h1>Compétences</h1>
           <div className="skills-grid">

@@ -20,8 +20,7 @@ const Header = () => {
 
             <Fade bottom>
               <h2>
-                Bonjour ! Je m'appelle {data.name}{" "}
-                <span role="img" aria-label="Emoji">
+                Bonjour ! Je m'appelle {data.name}{" "} <span role="img" aria-label="Emoji">
                   👋
                 </span>
               </h2>

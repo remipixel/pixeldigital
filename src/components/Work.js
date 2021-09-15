@@ -1,20 +1,23 @@
 import React from "react"
-import Card from "./atoms/Card"
-import Fade from "react-reveal/Fade"
+import Card from "./atoms/Card" 
 
 import data from "../yourdata"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
-      <div className="container">
-        <div className="work-wrapper">
-          <Fade bottom>
-            <h1>Réalisations</h1>
-          </Fade>
-
-          <div className="grid">
-            <Fade bottom cascade>
+    <>
+      <section id="work">
+        <div className="wrapper">
+          <h2>
+            <span class="line">
+              <span class="line-inner">Quelques</span>
+            </span>
+            <span class="line">
+              <span class="line-inner">travaux</span>
+            </span>
+          </h2>
+          <div className="work-group">
+            
               {data.projects.map(project => (
                 <Card
                   key={project.id}
@@ -24,11 +27,12 @@ const Work = () => {
                   projectLink={project.url}
                 ></Card>
               ))}
-            </Fade>
+            
           </div>
         </div>
-      </div>
-    </div>
+
+      </section>
+    </>
   )
 }
 

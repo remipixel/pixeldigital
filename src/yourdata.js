@@ -87,9 +87,6 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://golfclub-valdecher.fr/",
     },
-
- /*{
-    
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "La Grange", //Project Title - Add Your Project Title Here
@@ -97,7 +94,7 @@ export default {
         "Site internet du restaurant \"La Grange\" sur le port de Boyardville.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        lagrange,
+      golfvaldecher,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
@@ -113,19 +110,6 @@ export default {
       url: "http://chetanverma.com/",
     },
 
-
-
-
-   
-    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-    ,{
-        id: 5,
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------

@@ -5,12 +5,12 @@ import data from "../yourdata"
 const About = () => {
   return (
     <div className="secion" id="about">
-      <div className="container">
+      <div className="wrapper">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
+            
               <h1>A propos</h1>
-            </Fade>
+            
             <p>
               {data.aboutParaOne}
               <br></br>

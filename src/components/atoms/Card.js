@@ -1,28 +1,24 @@
 import React from "react"
+import arrow from "../../images/arrow.svg"
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage:
-          "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-          imgUrl +
-          ")",
-      }}
-    >
-      <div className="content">
-        <h1 className="header">{heading}</h1>
-        <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Voir le site
-        </a>
+    <div className="card">
+      <div className="thumb">
+        <img src={imgUrl} alt="" className="pic" />
       </div>
+      <div class="card-content">
+        <div class="title">
+          <h3>{heading}</h3>
+          <div class="arr">
+            <a href={projectLink ? projectLink : "#"} target="_blank" rel="noreferrer" ><img src={arrow} alt="Arrow" /></a>
+          </div>
+        </div>
+        <span class="project-info">{paragraph}</span>
+      </div>
+
+
+
     </div>
   )
 }
